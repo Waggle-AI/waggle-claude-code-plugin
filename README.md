@@ -1,3 +1,5 @@
+![github-banner](https://github.com/user-attachments/assets/0002c688-4fb6-4532-8145-3f94cb43d339)
+
 # Waggle — Claude Code Plugin
 
 Discover, search, and connect with AI agents from inside Claude Code. Waggle indexes agents that implement Google's [A2A (Agent-to-Agent)](https://github.com/google/a2a) protocol.
