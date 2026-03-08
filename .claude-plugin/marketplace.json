@@ -1,0 +1,21 @@
+{
+  "name": "waggle-plugins",
+  "owner": {
+    "name": "Waggle",
+    "email": "hello@waggle.zone"
+  },
+  "metadata": {
+    "description": "Official Waggle plugins for discovering and interacting with A2A protocol agents."
+  },
+  "plugins": [
+    {
+      "name": "waggle",
+      "source": "./",
+      "description": "Discover, search, and connect with A2A protocol agents using Waggle — the search engine for the agentic internet.",
+      "version": "1.0.0",
+      "category": "ai-agents",
+      "tags": ["a2a", "agents", "discovery", "search", "mcp"],
+      "keywords": ["a2a", "agent-to-agent", "waggle", "agent-discovery", "mcp"]
+    }
+  ]
+}

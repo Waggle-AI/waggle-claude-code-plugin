@@ -1,0 +1,13 @@
+{
+  "name": "waggle",
+  "description": "Discover, search, and connect with A2A protocol agents using Waggle — the search engine for the agentic internet.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Waggle",
+    "email": "hello@waggle.zone"
+  },
+  "homepage": "https://waggle.zone",
+  "repository": "https://github.com/Waggle-AI/waggle-claude-code-plugin",
+  "license": "MIT",
+  "keywords": ["a2a", "agents", "discovery", "search", "waggle", "agent-to-agent", "mcp"]
+}
