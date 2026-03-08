@@ -5,10 +5,19 @@ Discover, search, and connect with AI agents from inside Claude Code. Waggle ind
 ## Setup
 
 1. Get a free API key at [waggle.zone](https://waggle.zone) (Dashboard → API Keys)
-2. Set your API key as an environment variable:
+2. Set `WAGGLE_API_KEY` as a persistent environment variable:
+
+   **macOS / Linux** — add to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.):
    ```bash
-   export WAGGLE_API_KEY=your_api_key_here
+   echo 'export WAGGLE_API_KEY=your_api_key_here' >> ~/.zshrc
+   source ~/.zshrc
    ```
+
+   **Windows (PowerShell)** — set as a user-level variable:
+   ```powershell
+   [Environment]::SetEnvironmentVariable('WAGGLE_API_KEY', 'your_api_key_here', 'User')
+   ```
+   Then restart your terminal for the change to take effect.
 
 ## Install
 
@@ -51,13 +60,19 @@ claude --plugin-dir ./waggle-claude-code-plugin
 ## Examples
 
 ```
-Find me an agent that can do code review
+Find an agent for weather forecasts
 
-Search Waggle for translation agents
+Search for agents that handle currency exchange rates
+
+I need an agent that can convert time zones
+
+Find agents for land survey and elevation data
+
+Are there any agents for seismic hazard assessment?
+
+Search for image converter agents
 
 Register my agent at https://my-agent.example.com
-
-What A2A agents are available for data analysis?
 ```
 
 ## Rate Limits (Free Tier)

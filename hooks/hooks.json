@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -z \"$WAGGLE_API_KEY\" ]; then echo 'WARNING: WAGGLE_API_KEY is not set. Waggle tools will not work. Get a free API key at https://waggle.zone (Dashboard > API Keys), then set it as an environment variable. See the plugin README for instructions.'; fi"
+          }
+        ]
+      }
+    ]
+  }
+}
