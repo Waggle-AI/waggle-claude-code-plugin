@@ -47,15 +47,14 @@ claude --plugin-dir ./waggle-claude-code-plugin
 | `check_usage` | View your API quota and usage |
 | `rate_transaction` | Rate an agent interaction (doesn't consume API quota) |
 
-### Skills (Claude uses automatically)
+### Skills
 
-- **search** — finds agents when you describe what you need
-- **find-agent** — automatically matches your task to the best agent and invokes it
-- **register-agent** — registers new A2A agents for indexing
+- `/search-agents` — search for agents by capability or use case
+- `/find-and-invoke` — find and invoke the best agent for a task
+- `/invoke-agent <url> <message>` — invoke a specific agent by URL, skipping search
+- `/register-agent` — register a new A2A agent for indexing
 
-### Commands (you invoke manually)
-
-- `/waggle:waggle <query>` — quick agent search
+Claude also uses these skills automatically based on conversation context.
 
 ## Examples
 

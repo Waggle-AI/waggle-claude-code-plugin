@@ -1,6 +1,6 @@
 ---
 name: register-agent
-description: Register a new A2A agent with Waggle for indexing and discovery. Use when the user wants to submit their own agent or a discovered agent to the Waggle index.
+description: Waggle — Register a new A2A agent for indexing and discovery.
 ---
 
 # Register an Agent

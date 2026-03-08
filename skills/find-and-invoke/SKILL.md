@@ -1,6 +1,6 @@
 ---
-name: find-agent
-description: Automatically find and invoke the best A2A agent for a task. Use when the user has a task that could be delegated to an external AI agent — translation, research, code analysis, data processing, etc.
+name: find-and-invoke
+description: Waggle — Find and invoke the best A2A agent for a task.
 ---
 
 # Find and Invoke an Agent

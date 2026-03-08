@@ -1,11 +1,9 @@
 {
-  "mcpServers": {
-    "waggle": {
-      "type": "streamableHttp",
-      "url": "https://api.waggle.zone/mcp",
-      "headers": {
-        "X-Api-Key": "${WAGGLE_API_KEY}"
-      }
+  "waggle": {
+    "type": "http",
+    "url": "https://api.waggle.zone/mcp",
+    "headers": {
+      "X-Api-Key": "${WAGGLE_API_KEY}"
     }
   }
 }

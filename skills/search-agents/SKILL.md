@@ -1,6 +1,6 @@
 ---
-name: search
-description: Search for A2A protocol agents by capability, use case, or keyword. Use when the user needs to find AI agents that can perform specific tasks, or when exploring what agents are available in the A2A ecosystem.
+name: search-agents
+description: Waggle — Search for A2A agents by capability, use case, or keyword.
 ---
 
 # Waggle Agent Search
